@@ -1,4 +1,4 @@
-# Search and Download Images using Bing's API
+# Search and Download Images from Microsoft Bing Images
 
 ## Introduction
 
@@ -57,8 +57,9 @@ instance = BingImagesSearchAndSave(bing_api_key, save_path_folder, folder_name, 
 instance.save_images_from_csv('link_images_F22A_Jan-05-2021.csv')
 ```
 
-##Pre-requisites
->1. Python Version >= 3.7 <br>2. Modules installed: requests, tqdm and pandas
+## Pre-requisites
+
+>1. Python Version >= 3.7 <br><br>2. Modules installed: requests, tqdm and pandas
 
 ## Installation
 
