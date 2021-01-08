@@ -1,4 +1,4 @@
-# Search and Download Images from Bing Images
+# Search and Download Images from Bing
 
 ## Introduction
 
