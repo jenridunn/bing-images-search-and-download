@@ -44,6 +44,7 @@ Every time you run the method save_images() a csv file is generated in case some
 ```
 from api_bing_search import BingImagesSearchAndSave
 
+# Class Arguments
 bing_api_key = "956ab122ab094934af4f0fe18fcc6db9"
 save_path_folder = r"E:\Learning\FastAiv2\Course\CHAPTER 2\AC7 Aircraft Trainer"
 search_term ="Mirage 2000-5"
