@@ -60,8 +60,8 @@ instance.save_images_from_csv('link_images_F22A_Jan-05-2021.csv')
 
 ## Pre-requisites
 
-<ul><li>1. Python Version >= 3.7</li><li>2. Modules installed: requests, tqdm and pandas</li></ul>
+<ul><li>Python Version >= 3.7</li><li>Modules installed: requests, tqdm and pandas</li><li>Bing Image Search API key</li></ul>
 
 ## Installation
 
->1. Clone or download this repository and import the class BingImagesSearchAndSave (recommendation: place the class in the same folder where your code will be executed, to avoid any further import issues). <br><br>You might need an api key from your azure account for using the Bing Image Search API, for this follow the instructions described in this link: https://www.microsoft.com/en-us/bing/apis/bing-image-search-api<br><br> If you want to use the free subscription you will have access to fetch up to 1000 images per month.
+>1. Clone or download this repository and import the class BingImagesSearchAndSave (recommendation: place the class in the same folder where your code will be executed, to avoid any further import issues). <br><br>You might need an api key for using the Bing Image Search API, for this follow the instructions described in this link: https://www.microsoft.com/en-us/bing/apis/bing-image-search-api<br><br> If you want to use the free subscription you will have access to fetch up to 1000 images per month.
