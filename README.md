@@ -2,7 +2,7 @@
 
 ## Introduction
 
-> Use this python class to search and download images (images from the original source and thumbnails) to your computer using Bing's API. If you are a deep learning practitioner you will find this class very useful for obtaining data sets to train neuronal networks for computer vision algorithms.
+> Use this python class to search and download images (images from the original source and thumbnails) to your computer using the Bing Image Search API. If you are a deep learning practitioner you will find this class very useful for obtaining data sets to train neuronal networks for computer vision algorithms.
 
 ## Code Samples
 
