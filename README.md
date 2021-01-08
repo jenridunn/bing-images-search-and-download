@@ -60,7 +60,7 @@ instance.save_images_from_csv('link_images_F22A_Jan-05-2021.csv')
 
 ## Pre-requisites
 
->1. Python Version >= 3.7<br><br>2. Modules installed: requests, tqdm and pandas
+1. Python Version >= 3.7<br><br>2. Modules installed: requests, tqdm and pandas
 
 ## Installation
 
