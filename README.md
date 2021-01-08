@@ -6,7 +6,7 @@
 
 ## Code Samples
 
-<strong>NOTE:</strong> By default the methods (save_images and save_images_from_csv) doesn't save the images from the original source. If you want this functionality uncomment the following line in the executors methods:
+<strong>NOTE:</strong> By default, the methods (save_images and save_images_from_csv) don't save the images from the original source. If you want this functionality uncomment the following line in the executors methods:
 ```
 #self.save_image("image", images, originals_dir)
 ``` 
