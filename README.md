@@ -1,0 +1,52 @@
+# Search and Download Images using Bing's API
+
+## Introduction
+
+> Use this python class to search and download images (images from the original source and thumbnails) to your computer using Bing's API. If you are a deep learning practitioner you will find this class very useful for obtaining data sets to train neuronal networks for computer vision algorithms.
+
+## Code Samples
+
+<strong>NOTE:</strong> By default the methods (save_images and save_images_from_csv) doesn't save the images from the original source. If you want this functionality uncomment the following line in the executors methods:
+```
+#self.save_image("image", images, originals_dir)
+``` 
+
+For saving images only:
+``` 
+from api_bing_search import BingImagesSearchAndSave
+
+# Class Arguments
+bing_api_key = "here_goes_your_api_key"
+save_path_folder = r"E:\Learning\FastAiv2\Course\CHAPTER 2\AC7 Aircraft Trainer"
+search_term ="Mirage 2000-5"
+folder_name ="Mirage2000"
+image_count = 150 
+image_min_width = "256"
+image_min_height = "256"
+
+instance = BingImagesSearchAndSave(bing_api_key, save_path_folder, folder_name, search_term, image_count, image_min_width, image_min_height)
+instance.save_images()
+```
+
+Every time you run the method save_images() a csv file is generated in case something goes wrong while downloading the images to your computer. If you want to resume the saving process of your images follow this example:
+
+```
+bing_api_key = "956ab122ab094934af4f0fe18fcc6db9"
+save_path_folder = r"E:\Learning\FastAiv2\Course\CHAPTER 2\AC7 Aircraft Trainer"
+
+search_term ="Mirage 2000-5"
+folder_name ="Mirage2000"
+image_count = 150
+image_min_width = "256"
+image_min_height = "256"
+
+instance = BingImagesSearchAndSave(bing_api_key, save_path_folder, folder_name, search_term, image_count, image_min_width, image_min_height)
+
+#input as an argument the name of the csv file generated during the previous execution of the save_images() method
+instance.save_images_from_csv('link_images_F22A_Jan-05-2021.csv')
+```
+
+
+## Installation
+
+>1. Clone or download this repository and import the class BingImagesSearchAndSave (recommendation: place the class in the same folder where the your code will be executed, to avoid any further import issues). <br><br>You might need an api key from your azure account for using the Bing Image Search API, for this follow the instructions described in this link: https://www.microsoft.com/en-us/bing/apis/bing-image-search-api ; If you want to use the free subscription you will have access to fetch up to 1000 images per month (use wisely the image_count parameter, which defines the maximum number of images that the api will return from the search). 
