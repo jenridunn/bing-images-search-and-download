@@ -15,7 +15,7 @@
 <br>
 <br>
 <i>image_count</i>:
-The number of images to return in the response. The actual number delivered may be less than requested. The default is 35. The maximum value is 150.
+The number of images to return in the response. The actual number delivered may be less than requested. The maximum value is 150.
 <br>
 <i>image_min_width</i>: Filter images that have a width that is greater than or equal to the specified width. Specify the width in pixels.
 <br>
